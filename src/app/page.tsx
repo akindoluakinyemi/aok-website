@@ -85,7 +85,7 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-20 text-center bg-gradient-to-b from-white to-gray-300">
         <h2 className="text-3xl font-semibold mb-6">Ready to get started?</h2>
-        <p className="text-lg max-w-2xl mx-auto mb-6">We are gearing up to launch full-scale home installations very soon!!</p>     <p className="text-lg max-w-2xl mx-auto mb-6"> If you're excited to transform your living space into a smart, energy-efficient home, join our waitlist now. You’ll be the first to know when we begin installations and receive early access to our exclusive services.</p>
+        <p className="text-lg max-w-2xl mx-auto mb-6">We are gearing up to launch full-scale home installations very soon!!</p>     <p className="text-lg max-w-2xl mx-auto mb-6"> If you are excited to transform your living space into a smart, energy-efficient home, join our waitlist now. You will be the first to know when we begin installations and receive early access to our exclusive services.</p>
         <div className="flex justify-center gap-4">
           <a href="#" className="bg-gray-900 hover:bg-gray-800 px-6 py-3 rounded-xl text-white">Go to Web App</a>
           <a
