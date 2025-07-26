@@ -42,9 +42,9 @@ export default function HomePage() {
         <h2 className="text-3xl font-semibold mb-4">About Us</h2>
         <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-800">
           <p>AOK Limited is a Nigerian smart home company committed to making everyday living simpler, safer, and more energy-efficient. In a country where electricity supply is often unstable and energy costs are rising, our mission is to help households take control of their power usage and daily appliances — without needing to be tech experts.</p>
-          <p>We provide intuitive home automation solutions that allow you to remotely monitor and control your appliances, track electricity consumption, and set smart schedules — all through a user-friendly app. Whether you're trying to reduce your electricity bill, manage usage during power outages, or just want more convenience and peace of mind, AOK brings the technology to your fingertips.</p>
-          <p>Our goal is to make smart living accessible to everyone — from individuals in single apartments to families in multi-room homes. With a range of flexible product tiers and services, we ensure there's a solution for every lifestyle and budget.</p>
-          <p>AOK Limited is not just improving how people live — we're helping build smarter communities across Nigeria, one home at a time.</p>
+          <p>We provide intuitive home automation solutions that allow you to remotely monitor and control your appliances, track electricity consumption, and set smart schedules — all through a user-friendly app. Whether you are trying to reduce your electricity bill, manage usage during power outages, or just want more convenience and peace of mind, AOK brings the technology to your fingertips.</p>
+          <p>Our goal is to make smart living accessible to everyone — from individuals in single apartments to families in multi-room homes. With a range of flexible product tiers and services, we ensure there is a solution for every lifestyle and budget.</p>
+          <p>AOK Limited is not just improving how people live — we are helping build smarter communities across Nigeria, one home at a time.</p>
         </div>
       </section>
 
@@ -85,7 +85,7 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-20 text-center bg-gradient-to-b from-white to-gray-300">
         <h2 className="text-3xl font-semibold mb-6">Ready to get started?</h2>
-        <p className="text-lg max-w-2xl mx-auto mb-6">We're gearing up to launch full-scale home installations very soon!!</p>     <p className="text-lg max-w-2xl mx-auto mb-6"> If you're excited to transform your living space into a smart, energy-efficient home, join our waitlist now. You’ll be the first to know when we begin installations and receive early access to our exclusive services.</p>
+        <p className="text-lg max-w-2xl mx-auto mb-6">We are gearing up to launch full-scale home installations very soon!!</p>     <p className="text-lg max-w-2xl mx-auto mb-6"> If you're excited to transform your living space into a smart, energy-efficient home, join our waitlist now. You’ll be the first to know when we begin installations and receive early access to our exclusive services.</p>
         <div className="flex justify-center gap-4">
           <a href="#" className="bg-gray-900 hover:bg-gray-800 px-6 py-3 rounded-xl text-white">Go to Web App</a>
           <a
