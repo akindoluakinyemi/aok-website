@@ -1,103 +1,128 @@
-import Image from "next/image";
+export const metadata = {
+  title: "AOK Smart Living Website",
+  description: "Official website of AOK Limited – revolutionizing Nigerian homes with smart control, monitoring, and automation.",
+};
 
-export default function Home() {
+import Image from 'next/image';
+
+export default function HomePage() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main className="bg-white text-gray-900 font-sans">
+      {/* Hero Section */}
+      <section className="h-screen flex flex-col md:flex-row items-center justify-center text-left px-6 md:px-20 bg-gradient-to-b from-white to-gray-300">
+        <div className="w-full md:w-1/2 mb-10 md:mb-0">
+          <Image
+            src="/aok-logo.png"
+            alt="AOK Limited Logo"
+            width={250}
+            height={250}
+            className="mb-6"
+          />
+        </div>
+        <div className="w-full md:w-1/2 text-center md:text-left">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4">AOK Smart Living</h1>
+          <p className="text-xl md:text-2xl mb-8 max-w-xl">Revolutionizing Nigerian homes with smart control, monitoring, and automation</p>
+          <div className="flex justify-center md:justify-start gap-4">
+            <a href="#" className="bg-gray-900 hover:bg-gray-800 px-6 py-3 rounded-xl text-white">Go to Web App</a>
+            <a
+              href="https://tally.so/r/wo8465"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-400 text-gray-900 hover:bg-gray-500 px-6 py-3 rounded-xl"
+            >
+              Join Waitlist
+            </a>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="py-20 px-6 md:px-20 text-center bg-gradient-to-b from-gray-300 to-white">
+        <h2 className="text-3xl font-semibold mb-4">About Us</h2>
+        <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-800">
+          <p>AOK Limited is a Nigerian smart home company committed to making everyday living simpler, safer, and more energy-efficient. In a country where electricity supply is often unstable and energy costs are rising, our mission is to help households take control of their power usage and daily appliances — without needing to be tech experts.</p>
+          <p>We provide intuitive home automation solutions that allow you to remotely monitor and control your appliances, track electricity consumption, and set smart schedules — all through a user-friendly app. Whether you're trying to reduce your electricity bill, manage usage during power outages, or just want more convenience and peace of mind, AOK brings the technology to your fingertips.</p>
+          <p>Our goal is to make smart living accessible to everyone — from individuals in single apartments to families in multi-room homes. With a range of flexible product tiers and services, we ensure there's a solution for every lifestyle and budget.</p>
+          <p>AOK Limited is not just improving how people live — we're helping build smarter communities across Nigeria, one home at a time.</p>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section className="py-20 px-6 md:px-20 bg-gradient-to-b from-white to-gray-300">
+        <h2 className="text-3xl font-semibold text-center mb-8">What We Offer</h2>
+        <ul className="max-w-4xl mx-auto space-y-4 text-lg list-disc list-inside">
+          <li>Control and monitor your appliances based on your needs</li>
+          <li>Energy usage tracking per device/room</li>
+          <li>Schedule devices to turn on/off</li>
+          <li>Know when power is available or out</li>
+          <li>Full smart integration with security cameras and automation</li>
+        </ul>
+      </section>
+
+      {/* Tiers Section */}
+      <section className="py-20 px-6 md:px-20 bg-gradient-to-b from-gray-300 to-white">
+        <h2 className="text-3xl font-semibold text-center mb-12">Our Tiers</h2>
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-400">
+            <Image src="/tier2.jpg" alt="Tier 1" width={500} height={300} className="rounded-xl mb-4" />
+            <h3 className="text-2xl font-semibold mb-2">Basic Smart Living</h3>
+            <p className="text-sm mb-4">Basic smart control and monitoring for appliances and sockets. Monitor power usage and remotely toggle devices from anywhere. Ideal for beginners who want an introduction to smart living.</p>
+          </div>
+          <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-400">
+            <Image src="/tier1.jpg" alt="Tier 2" width={500} height={300} className="rounded-xl mb-4" />
+            <h3 className="text-2xl font-semibold mb-2">Enhanced Smart Living</h3>
+            <p className="text-sm mb-4">All Basic Smart Living features plus the ability to schedule appliances, receive energy consumption reports, and monitor specific devices. This tier is great for those seeking control and insights on their energy usage. First month free after installation</p>
+          </div>
+          <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-500">
+            <Image src="/tier3.jpg" alt="Tier 3" width={500} height={300} className="rounded-xl mb-4" />
+            <h3 className="text-2xl font-semibold mb-2">Complete Smart Experience</h3>
+            <p className="text-sm mb-4">Our most advanced package. Everything from Basic Smart Living and Enhanced Smart Living, plus full automation setups, security camera integration, voice assistant compatibility, and AI-driven automation rules tailored to your lifestyle. First month free after installation</p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-20 text-center bg-gradient-to-b from-white to-gray-300">
+        <h2 className="text-3xl font-semibold mb-6">Ready to get started?</h2>
+        <p className="text-lg max-w-2xl mx-auto mb-6">We're gearing up to launch full-scale home installations very soon!!</p>     <p className="text-lg max-w-2xl mx-auto mb-6"> If you're excited to transform your living space into a smart, energy-efficient home, join our waitlist now. You’ll be the first to know when we begin installations and receive early access to our exclusive services.</p>
+        <div className="flex justify-center gap-4">
+          <a href="#" className="bg-gray-900 hover:bg-gray-800 px-6 py-3 rounded-xl text-white">Go to Web App</a>
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://tally.so/r/wo8465"
             target="_blank"
             rel="noopener noreferrer"
+            className="bg-gray-400 text-gray-900 hover:bg-gray-500 px-6 py-3 rounded-xl"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
+            Join Waitlist
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      </section>
+
+      {/* Contact Section */}
+      <footer className="py-12 px-6 md:px-20 bg-gradient-to-b from-gray-300 to-white text-center">
+        <p className="mb-4">Contact us at <a href="mailto:aoksmartliving@gmail.com" className="underline">aoksmartliving@gmail.com</a></p>
+        <div className="flex justify-center gap-4 text-xl">
+          <a
+            href="https://www.instagram.com/aoksmartliving?igsh=Z255bm80c2duenh5&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-black"
+          >
+            Instagram
+          </a>
+
+          <a
+            href="https://x.com/aoksmartliving?s=21"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-black"
+          >
+            Twitter/X
+          </a>
+          <a href="#" className="hover:text-black">Facebook</a>
+        </div>
       </footer>
-    </div>
+    </main>
   );
 }
