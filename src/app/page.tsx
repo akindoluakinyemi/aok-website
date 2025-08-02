@@ -110,11 +110,11 @@ export default function HomePage() {
               className="rounded-xl mb-4 w-full object-cover h-[200px]"
             />
             <h3 className="text-2xl font-semibold mb-2">Basic Smart Living</h3>
-            <p className="text-sm mb-4">
-              Basic smart control and monitoring for appliances and sockets.
-              Monitor power usage and remotely toggle devices from anywhere.
-              Ideal for beginners who want an introduction to smart living.
-            </p>
+            <ul className="list-disc list-inside text-[15px] text-gray-600">
+              <li>Room-to-room tracking</li>
+              <li>Total energy usage monitoring</li>
+              <li>Remote control of appliances</li>
+            </ul>
           </div>
           <div className="bg-white p-5 rounded-2xl shadow-md flex-1 md:basis-1/3 md:min-w-[250px] md:max-w-[400px] lg:max-w-full">
             <Image
@@ -127,13 +127,14 @@ export default function HomePage() {
             <h3 className="text-2xl font-semibold mb-2">
               Enhanced Smart Living
             </h3>
-            <p className="text-sm mb-4">
-              All Basic Smart Living features plus the ability to schedule
-              appliances, receive energy consumption reports, and monitor
-              specific devices. This tier is great for those seeking control and
-              insights on their energy usage. First month free after
-              installation
-            </p>
+            <ul className="list-disc list-inside text-[15px] text-gray-600">
+              <li>Room-to-room tracking</li>
+              <li>Total energy usage monitoring</li>
+              <li>Remote control of appliances</li>
+              <li>Device-specific energy</li>
+              <li>Smart scheduling for devices</li>
+              <li>Multiple user access</li>
+            </ul>
           </div>
           <div className="bg-white p-5 rounded-2xl shadow-md flex-1 md:basis-1/3 md:min-w-[250px] md:max-w-[400px] lg:max-w-full">
             <Image
@@ -146,13 +147,19 @@ export default function HomePage() {
             <h3 className="text-2xl font-semibold mb-2">
               Complete Smart Experience
             </h3>
-            <p className="text-sm mb-4">
-              Our most advanced package. Everything from Basic Smart Living and
-              Enhanced Smart Living, plus full automation setups, security
-              camera integration, voice assistant compatibility, and AI-driven
-              automation rules tailored to your lifestyle. First month free
-              after installation
-            </p>
+            <ul className="list-disc list-inside text-[15px] text-gray-600">
+              <li>Room-to-room tracking</li>
+              <li>Total energy usage monitoring</li>
+              <li>Remote control of appliances</li>
+              <li>Device-specific energy</li>
+              <li>Smart scheduling for devices</li>
+              <li>Multiple user access</li>
+              <li>Empty room control</li>
+              <li>Voice command integration</li>
+              <li>Security camera integration</li>
+              <li>Weather-based control and monitoring</li>
+              <li>Energy consumprion goal tracking</li>
+            </ul>
           </div>
         </div>
       </section>
