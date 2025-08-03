@@ -52,12 +52,7 @@ export default function HomePage() {
         <h2 className="text-3xl md:text-4xl font-semibold mb-4">About Us</h2>
         <div className="max-w-4xl mx-auto space-y-6 text-lg md:text-xl text-justify text-gray-800">
           <p>
-            AOK Limited is a Nigerian smart home company committed to making
-            everyday living simpler, safer, and more energy-efficient. In a
-            country where electricity supply is often unstable and energy costs
-            are rising, our mission is to help households take control of their
-            power usage and daily appliances — without needing to be tech
-            experts.
+            AOK Smart Living is a Nigerian smart home company transforming how people interact with their living spaces. Our mission is to make intelligent, connected living a reality for everyone — offering solutions that bring automation, control, and convenience to modern homes.
           </p>
           <p>
             We provide intuitive home automation solutions that allow you to
