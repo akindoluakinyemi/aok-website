@@ -212,7 +212,12 @@ export default function HomePage() {
             rel="noopener noreferrer"
             className="hover:text-black"
           >
-            Instagram
+            <Image
+              src="/instagram-logo.svg"
+              width={35}
+              height={35}
+              alt="facebook logo"
+            />
           </a>
 
           <a
@@ -221,10 +226,20 @@ export default function HomePage() {
             rel="noopener noreferrer"
             className="hover:text-black"
           >
-            Twitter/X
+            <Image
+              src="/x-twitter-logo.svg"
+              width={35}
+              height={35}
+              alt="facebook logo"
+            />
           </a>
           <a href="#" className="hover:text-black">
-            Facebook
+            <Image
+              src="/facebook-logo.svg"
+              width={35}
+              height={35}
+              alt="facebook logo"
+            />
           </a>
         </div>
       </footer>
