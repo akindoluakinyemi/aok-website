@@ -10,10 +10,10 @@ export default function HomePage() {
   return (
     <main className="bg-white text-gray-900 font-outfit">
       {/* Hero Section */}
-      <section className="h-screen flex flex-col lg:flex-row items-center justify-center text-left px-6 md:px-20 bg-gradient-to-br from-white via-gray-100 to-gray-300 relative overflow-hidden">
+      <section className="h-screen flex flex-col lg:flex-row items-center justify-center text-left px-6 md:px-20 bg-gradient-to-b from-white via-gray-100 to-gray-300 relative overflow-hidden">
         <div className="w-full flex items-center justify-center md:w-1/2 mb-10 md:mb-0">
           <Image
-            src="/aok-logo.png"
+            src="/aok logo.png"
             alt="AOK Limited Logo"
             width={340}
             height={340}
@@ -52,16 +52,33 @@ export default function HomePage() {
         <h2 className="text-3xl md:text-4xl font-semibold mb-4">About Us</h2>
         <div className="max-w-4xl mx-auto space-y-6 text-lg md:text-xl text-justify text-gray-800">
           <p>
-            AOK Smart Living is a Nigerian smart home company transforming how people interact with their living spaces. Our mission is to make intelligent, connected living a reality for everyone, offering solutions that bring automation, control, and convenience to modern homes.
+            AOK Smart Living is a Nigerian smart home company transforming how
+            people interact with their living spaces. Our mission is to make
+            intelligent, connected living a reality for everyone, offering
+            solutions that bring automation, control, and convenience to modern
+            homes.
           </p>
           <p>
-            At the core of every AOK system is seamless energy management, enabling users to monitor and control electricity usage, manage appliances remotely, and optimize power consumption, all through a simple, intuitive app. In a country where power supply is unpredictable and energy costs are rising, this capability is not just useful — it is essential.
+            At the core of every AOK system is seamless energy management,
+            enabling users to monitor and control electricity usage, manage
+            appliances remotely, and optimize power consumption, all through a
+            simple, intuitive app. In a country where power supply is
+            unpredictable and energy costs are rising, this capability is not
+            just useful — it is essential.
           </p>
           <p>
-            However, AOK Smart Living is much more than energy control. From smart lighting and appliance automation to security integrations and customizable home scenes, we provide a full ecosystem of smart home features designed to adapt to your lifestyle. Whether you are living in a studio apartment or managing a multi-room household, our flexible product tiers ensure that there is a smart solution for every need and budget.
+            However, AOK Smart Living is much more than energy control. From
+            smart lighting and appliance automation to security integrations and
+            customizable home scenes, we provide a full ecosystem of smart home
+            features designed to adapt to your lifestyle. Whether you are living
+            in a studio apartment or managing a multi-room household, our
+            flexible product tiers ensure that there is a smart solution for
+            every need and budget.
           </p>
           <p>
-            We are not just making homes smarter, we are redefining what it means to live comfortably, efficiently, and securely in Nigeria. One home at a time.
+            We are not just making homes smarter, we are redefining what it
+            means to live comfortably, efficiently, and securely in Nigeria. One
+            home at a time.
           </p>
         </div>
       </section>
